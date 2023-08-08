@@ -1,0 +1,86 @@
+.frangrancefinder{
+    height: 100vh;
+    position: relative;
+  }
+  .header-banner-content{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    padding:10px;
+    backdrop-filter: blur(15px);
+    background: hsla(0,0%,100%,.1);
+
+  }
+  .header-banner-content{
+   display: flex;
+   flex-direction: column;
+  }
+  .header-banner-content h1{
+    font-size: 28px;
+    line-height: 40px;
+    color:#53545c;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+  .header-banner-content button{
+    padding: 10px 50px;
+    border: thin solid #53545c;
+    background-color: #53545c;
+    width: 100%;
+  }
+  .header-banner-content button a{
+    color: #fff;
+    font-size:14px ;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  .editorial-container{
+    position: relative;
+    bottom: -100%;
+    backdrop-filter: blur(15px);
+     background: hsla(0,0%,100%,.1);
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .editorial-container .editorial-signature p{
+    font-size: 16px;
+    margin-top: 40px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
+
+  }
+  .editorial-title h2{
+    font-size: 28px;
+    margin-top: 0;
+  }
+  .editorial-text {
+    max-width: 80%;
+  }
+ 
+  .editorial-text p{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 20px 0;
+  }
+  .discover_also{
+
+  } 
+  .discover_also .header-section{
+    font-size: 28px;
+    line-height: 34px;
+    color:#53545c;
+    padding: 30px 0;
+  }
+  .discover_also img{
+    width: 100%;
+  }
+  .discover-innercontent{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }

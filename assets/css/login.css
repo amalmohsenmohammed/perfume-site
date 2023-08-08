@@ -1,0 +1,106 @@
+.login-page{
+    background-color: #f5f5f5;
+    color: #53545c;
+   overflow-x: hidden;
+
+}
+.login-page.register{
+    background-color: #fff;
+}
+
+.card-header{
+    border-bottom: 0;
+    background-color: transparent;
+    padding: 0 2.5rem;
+}
+.card-header .card-header-title{
+    font-size: 20px;
+    line-height:40px ;
+    margin-top: 0;
+    text-align: center;
+}
+.login-page .card {
+    border: 0;
+    background: 0 0;
+    width: 100%;
+}
+@media (min-width: 1280px){
+.login-page .card {
+    min-height: 500px;
+}}
+.login-cards .page-title{
+    margin: auto;
+    padding-top: 100px;
+    font-family: BauerBodoni-roman,serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:35px;
+    line-height: 60px;
+   
+  }
+  .login-page .card-body{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 0.625rem;
+    background: #fff;
+    height: 100%;
+    padding: 20px;
+  }
+  @media (min-width: 1024px){
+.login-page .card-body {
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 28px;
+}}
+
+.form-group{
+    margin-bottom: 35px;
+}
+.forget-password{
+    width:35%;
+    margin: 5% 0;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.rememberMecheck{
+    width: 18px;
+    height: 40px;
+    margin-right:20px !important;
+    margin-top:0px !important;
+}
+.rememberMe{
+    font-size: 14px;
+    font-weight: 300;
+}
+.btn-loginpages{
+    padding:10px;
+    border: thin solid #53545c;
+    background-color: #53545c;
+   
+    width: 100%;
+}
+.btn-loginpages a{
+    color: #fff;
+}
+.btn-loginpages:disabled{
+    border: thin solid #dfdfdf;
+    background-color: #dfdfdf;
+    color: #fff;
+}
+.card-text{
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    text-align: center;
+    font-size: 19px;
+}
+.Condition-text{
+letter-spacing: 0;
+font-family: Post Grotesk,sans-serif;
+font-size: 13px;
+display: block;
+margin-top: 15px;
+}
